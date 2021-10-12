@@ -1,3 +1,55 @@
-body {
-    background: tomato;
+* { /* Universal Selector picks everything> */
+    margin: 0; /*###Resetting to make sure nothing scrolls and margins stay rigid*/
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    background-color: tomato;
+    height: 100%;
+}
+
+header {
+    height: 20%;
+    background-color: teal;
+}
+
+nav, footer {
+    height: 10%;
+    background-color: chartreuse;
+}
+
+main {
+    height: 60%;
+    background-color: blanchedalmond;
+}
+
+aside{
+    width: 20%;
+    height: 100%;
+    background-color: coral;
+    display: inline-block;
+    float: left;
+}
+
+section {
+    width: 60%;
+    height: 100%;
+    background-color: darksalmon;
+    display: inline-block;
+    float: left;
+}
+
+.box{
+    position: relative;
+    top: 100px;
+    right: 150px;
+    width: 300px;
+    height: 300px;
+    background-color: gold;
 }
