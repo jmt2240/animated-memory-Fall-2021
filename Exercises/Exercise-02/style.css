@@ -20,11 +20,12 @@ body {
   }
   
   .pullquote {
-    color: #d3d3d3;
+    color:snow;
     font-family: "Libre Baskerville", serif;
     font-style: italic;
+    font-style: bold;
     letter-spacing: 1px;
-    font-size: 1.68em;
+    font-size: 2em;
   }
 
 p {
