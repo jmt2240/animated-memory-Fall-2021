@@ -2,6 +2,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: salmon;
 }
 
 
@@ -9,7 +10,6 @@ body {
     padding: 20px 40px;
     width: 50%;
     line-height: 1.68;
-    background-color: salmon;
   }
 
   h1 {
