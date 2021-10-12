@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans&display=swap");
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 
@@ -9,6 +9,7 @@ body {
     padding: 20px 40px;
     width: 50%;
     line-height: 1.68;
+    background-color: salmon;
   }
 
   h1 {
@@ -25,4 +26,9 @@ body {
     letter-spacing: 1px;
     font-size: 1.68em;
   }
+
+p {
+    color:slategray;
+}
+
   
