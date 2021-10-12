@@ -19,6 +19,11 @@ body {
     line-height: 1.4em;
     color: steelblue;
   }
+
+  h3 {
+      color:steelblue;
+      font-style: italic;
+  }
   
   .pullquote {
     color:snow;
