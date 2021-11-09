@@ -13,9 +13,6 @@ body {
     color: #f2f2f2;
 }
 
-.container {
-    height: 100%;
-}
 
 .HOME {
     background: green;
@@ -45,4 +42,30 @@ body {
 .POLICESTATION {
     background: tomato;
     height: 100%;
+}
+
+
+nav{
+
+    height: 25px;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    background: #ff007a;
+    line-height: 25px;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    font-family: "roboto";
+    font-weight: bolder;
+}
+li{
+    padding:0 40px;
+}
+
+li:hover{
+    transform: scale(1.2);
 }
