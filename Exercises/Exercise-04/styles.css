@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans&display=swap");
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: salmon;
+}
+
+
+.container {
+    padding: 20px 40px;
+    width: 50%;
+    line-height: 1.68;
+  }
+
+  h1 {
+    font-family: "Libre Baskerville", serif;
+    text-transform: capitalize;
+    font-size: 3.68em;
+    line-height: 1.4em;
+    color: steelblue;
+  }
+
+  h3 {
+      color:steelblue;
+      font-style: italic;
+  }
+  
+  .pullquote {
+    color:snow;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-style: bold;
+    letter-spacing: 1px;
+    font-size: 2em;
+  }
+
+p {
+    color:slategray;
+}
+@media (min-width: 480px) {
+    .container {
+      background: green;
+    }
+}
+@media (min-width: 768px) {
+  .container {
+    background: red;
+  }
+}

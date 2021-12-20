@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 60px;
+}
+.box{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    background: #ff007a;
+    line-height: 60px;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+    font-family: "open Sans", sans-serif;
+    font-weight: bolder;
+}
+
+li{
+    padding:0 40px;
+}
+li:hover{
+    animation: changeMe 1s ease-in-out .1s;
+}
+
+
+
+html, body{
+    height: 100%;
+}
+body{
+    background-color: yellowgreen;
+}
+
+
+
+.container{
+    display: flex;
+    /*flex-direction: column;*/
+    height: 100%;
+    justify-content: center;
+}
+
+/*.item:nth-child(3){
+    flex-grow: 2;
+    background-color: blue;
+}
+*/
+.item{
+    /* flex-grow: 1; */
+    font-family: "Work Sans";
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #ff007a;
+    font-size: 75px;
+    align-self: center;
+    text-align: center;
+    font-weight: bolder;
+    transition: all 0.5s;
+}
+.item:hover{
+    transform: scale(1.4);
+}
+@keyframes changeMe{
+    0%{
+        background: #ff007a;
+        transform: scale(0.8);
+    }
+
+    33%{
+        background: #d8026a;
+    }
+
+    66%{
+        background: #a1004e;
+        transform: scale(1.2);
+    }
+
+    100%{
+        background: #ff007a;
+    }
+}
