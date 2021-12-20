@@ -10,7 +10,7 @@ body {
     background: #333;
     color: #fff;
     line-height: 1.6;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 
 }
@@ -26,19 +26,29 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    height: 100%;
+    height: 100vh;
     scroll-snap-align: center;
 
 }
 
 section h1 {
     font-size: 4rem;
+    text-shadow:
+    0.02em 0 black,
+    0 0.02em black,
+    -0.02em 0 black,
+    0 -0.02em black;
 }
 
 section p {
     font-size: 1.6rem;
+    text-shadow:
+    0.02em 0 black,
+    0 0.02em black,
+    -0.02em 0 black,
+    0 -0.02em black;
 }
 
 nav{
@@ -60,8 +70,8 @@ nav{
 }
 
 .container{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
@@ -69,7 +79,7 @@ nav{
  
 }
 .container a{
-    text-decoration: none;
+    text-decoration: grey;
     color: white;
     font-family: "roboto";
     font-weight: bolder;
@@ -82,15 +92,35 @@ li{
 
 li:hover{
     transform: scale(1.2);
+    animation: changeMe 1s ease-in-out .1s;
+}
+@keyframes changeMe{
+    0%{
+        background: #d64501;
+        transform: scale(0.8);
+    }
+
+    33%{
+        background: #be3c00;
+    }
+
+    66%{
+        background: #9e4801;
+        transform: scale(1.2);
+    }
+
+    100%{
+        background: #ff6600;
+    }
 }
 
 /* Section Images */
 section#HOME {
-    background: url(Images/philadelphia\ placeholder.jpg) no-repeat center center/ cover;
+    background: url(Images/Cambridge_BackyardGBH_Blackbird.png) no-repeat center center/ cover;
 }
 
 section#ABOUT {
-    background: url(Images/philadelphia\ placeholder.jpg) no-repeat center center/ cover;
+    background: url(Images/GBH_Nest_7_8_20.png) no-repeat center center/ cover;
 }
 
 section#BIRDSOFPREY {

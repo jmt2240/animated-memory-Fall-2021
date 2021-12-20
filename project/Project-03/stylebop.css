@@ -38,12 +38,22 @@ section h1 {
   margin-top: 20px;
   margin-left: 10px;
   font-size: 2rem;
+  text-shadow:
+    0.02em 0 black,
+    0 0.02em black,
+    -0.02em 0 black,
+    0 -0.02em black;
 }
 
 section p {
   margin-top: 5px;
   margin-left: 10px;
   font-size: 1.0rem;
+  text-shadow:
+    0.02em 0 black,
+    0 0.02em black,
+    -0.02em 0 black,
+    0 -0.02em black;
 }
 
 nav{
@@ -87,6 +97,26 @@ li{
 
 li:hover{
   transform: scale(1.2);
+  animation: changeMe 1s ease-in-out .1s;
+}
+@keyframes changeMe{
+  0%{
+      background: #d64501;
+      transform: scale(0.8);
+  }
+
+  33%{
+      background: #be3c00;
+  }
+
+  66%{
+      background: #9e4801;
+      transform: scale(1.2);
+  }
+
+  100%{
+      background: #ff6600;
+  }
 }
 
 /* Section Images */
