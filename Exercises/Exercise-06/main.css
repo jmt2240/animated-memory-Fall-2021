@@ -12,7 +12,7 @@ nav{
     display:flex;
     justify-content: space-around;
     list-style: none;
-    background: #ff007a;
+    background: #0044ff;
     line-height: 60px;
 }
 .box a{
@@ -35,7 +35,7 @@ html, body{
     height: 100%;
 }
 body{
-    background-color: yellowgreen;
+    background-color: rgb(8, 189, 221);
 }
 
 
@@ -55,10 +55,10 @@ body{
 .item{
     /* flex-grow: 1; */
     font-family: "Work Sans";
-    margin: 10px;
-    width: 100px;
+    margin: 20px;
+    width: 200px;
     height: 100px;
-    background-color: #ff007a;
+    background-color: #0044ff;
     font-size: 75px;
     align-self: center;
     text-align: center;
@@ -66,24 +66,24 @@ body{
     transition: all 0.5s;
 }
 .item:hover{
-    transform: scale(1.4);
+    transform: scale(1.5);
 }
 @keyframes changeMe{
     0%{
-        background: #ff007a;
+        background: #ff0000;
         transform: scale(0.8);
     }
 
     33%{
-        background: #d8026a;
+        background: #d80202;
     }
 
     66%{
-        background: #a1004e;
+        background: #a10000;
         transform: scale(1.2);
     }
 
     100%{
-        background: #ff007a;
+        background: #ff0000;
     }
 }
