@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    background-color: rgb(255, 0, 0);
+}
+button{
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.container{
+text-align: left;
+position: absolute;
+
+top: 15%;
+left: 15%;
+
+}
+
+h1{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 50px;
+}
+p{
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+
+.box{
+padding: 2 px;
+}
