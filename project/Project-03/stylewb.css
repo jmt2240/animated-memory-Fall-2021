@@ -130,6 +130,7 @@
   
   section#GreatEgret {
     background: url(Images/Great\ Egret\ 1_7_8_20.png) no-repeat center center/ cover;
+    background-position: bottom;
   }
   
   section#GreatBlueHeron {
